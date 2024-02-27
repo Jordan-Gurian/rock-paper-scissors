@@ -72,28 +72,3 @@ function playRound(playerSelection, computerSelection) {
 
     return
 }
-
-// function playGame() {
-//     let playerWins = 0;
-//     let computerWins = 0;
-//     let winner = `No winner, this 5 game series is a draw!`;
-
-//     for (let i = 0; i < 5; i++) {
-//         let result = playRound(prompt(`Pick Rock, Paper, or Scissors!`), getComputerChoice());
-//         if (result.includes(`win`)) {
-//             playerWins++;
-//         }
-//         else if (result.includes(`lose`)) {
-//             computerWins++;
-//         }
-//         console.log(result);
-//     }
-//     if (playerWins > computerWins) {
-//         winner = `You won the 5 game series!`;
-//     }
-//     else if (computerWins) {
-//         winner = `You lost the 5 game series!`;
-//     }
-//     console.log(winner);
-//     return
-// }
